@@ -8,7 +8,14 @@ public class Pattern {
 		 *
 		 *
 		 */
-		
+		int startsAt = 100;
+
+		for (int i = startsAt; i >= 0; i--) {
+			for (int j = i; j>=0; j-=1) {
+				System.out.print(j + " ");
+			}
+			System.out.println("");
+		}
 
 
 	}
