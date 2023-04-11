@@ -23,28 +23,47 @@ Ans. An array is a collection of similar types of data.
 what is the difference between the Array and ArrayList?
 Array is a fixed length data structure whereas ArrayList is a variable length Collection class. We cannot change length of array once created in Java but ArrayList can be changed. We cannot store primitives in ArrayList, it can only store objects
 what is LinkedList?
-
+A linked list in Java is a dynamic data structure whose size increases as you add the elements and decreases as you remove the elements from the list. The elements in the linked list are stored in containers. The list holds the link to the first container
 How is an Array different from Linked List?
+An array is a collection of elements of a similar data type. Linked List is an ordered collection of elements of the same type in which each element is connected to the next using pointers. Array elements can be accessed randomly using the array index. Random accessing is not possible in linked lists.
 what is queue?
+Queue is an abstract data structure, somewhat similar to Stacks. Unlike stacks, a queue is open at both its ends. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). Queue follows First-In-First-Out methodology, i.e., the data item stored first will be accessed first.
 what is stack?
+In computer science, a stack is an abstract data type that serves as a collection of elements,
 what is FIFO and LIFO?
+These are used in case of queue and stack in data structure, Queue: First In First Out (FIFO): The first object into a queue is the first object to leave the queue, used by a queue. Stack: Last In First Out (LIFO): The last object into a stack is the first object to leave the stack, used by a stack.
 what is the order of complexity?
 what is the best case to search an element from an array?
+Searching arrays can always be done with a for loop. An array is a list of items that starts at the index of 0 and increments by 1 with each item until the last item in the array. If you create a for loop with the count starting at 0 and incrementing by 1, you match the array and, thus, can search the array.
 what is the worst case to search an element from an array?
 what is tree in data structure?
+A tree is a hierarchical data structure defined as a collection of nodes. Nodes represent value and nodes are connected by edges. A tree has the following properties: The tree has one node called root. The tree originates from this, and hence it does not have any parent
 what is graph in data structure?
+Graphs in data structures are non-linear data structures made up of a finite number of nodes or vertices and the edges that connect them. Graphs in data structures are used to address real-world problems in which it represents the problem area as a network like telephone networks, circuit networks, and social networks.
 what is the difference between the HashTable and HashMap?
+HashMap is non-syncronized and is not thread safe while HashTable is thread safe and is synchronized. HashMap allows one null key and values can be null whereas HashTable doesn't allow null key or value. HashMap is faster than HashTable.
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 How HashMap works in java?
+A hashmap uses a hashtable, however, it is internally implemented using two data structures namely an array and a linked list. Whenever we declare a hashmap, internally, it will create an array of buckets. The buckets are referred to as nodes or we can say a linked list.
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+The ArrayIndexOutOfBoundsException is a runtime exception in Java that occurs when an array is accessed with an illegal index. The index is either negative or greater than or equal to the size of the array.Mar
 What are the different ways of copying an array into another array?
+Copying element by element − One way is to create an empty array with the length of the original array, and copy each element (in a loop).
 What is difference between an array and a linked list?
+An array is a collection of elements of a similar data type. Linked List is an ordered collection of elements of the same type in which each element is connected to the next using pointers. Array elements can be accessed randomly using the array index. Random accessing is not possible in linked lists.
 What is DFS and BFS?
+BFS stands for Breadth First Search. DFS stands for Depth First Search. Data structure. BFS uses a Queue to find the shortest path. DFS uses a Stack to find the shortest path.
 What is Recursion?
+Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simple problems which are easier to solve. Recursion may be a bit difficult to understand. The best way to figure out how it works is to experiment with it.
 What are linear and non linear data Structures?
+In a linear data structure, the data elements connect to each other sequentially. A user can transverse each element through a single run. In a non-linear data structure, the data elements connect to each other hierarchically. Thus, they are present at various levels.
 What is Big-(O)-notation?
+Big O notation characterizes functions according to their growth rates: different functions with the same asymptotic growth rate may be represented using the same O notation. The letter O is used because the growth rate of a function is also referred to as the order of the function.
 Outlined different kind of sorting algorithm with time complexity?
-
+Quick Sort	O(N log N)	O(N^2)
+Heap Sort	O(N log N)	O(N log N)
+Counting Sort	O(N + K)	O(N + K)
+Radix Sort	O(N * K)	O(N * K)
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
